@@ -1,0 +1,21 @@
+{
+  "name": "usco-image-utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava './test/**/*.test.js' --require babel-register --verbose",
+    "build": "babel src/ -d dist",
+    "watch": "watchify src/main -o dist/index.js -t [ babelify]"
+  },
+  "author": "Mark 'kaosat-dev' Moissette",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
