@@ -1,5 +1,5 @@
 {
-  "name": "usco-image-utils",
+  "name": "@usco/image-utils",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
